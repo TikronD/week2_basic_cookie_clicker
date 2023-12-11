@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Coin Clicker</title>
+    <script src="./app.js" defer></script>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" href="./images/coin.gif" type="images/x-icon" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Amita&family=Architects+Daughter&family=Caveat&family=Libre+Baskerville&family=Press+Start+2P&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div id="container">
+      <h1>Coin Clicker</h1>
+      <div class="counter position">
+        <p>0</p>
+      </div>
+      <div class="coin position"></div>
+      <!-- Upgrade coin section -->
+      <div>Click the coin!</div>
+      <div class="upgrade-box position">
+        <div class="div-left">
+          <!-- Upgrades left -->
+          <div class="left-rows">
+            <h4 class="multi-luigi">0</h4>
+            <button class="luigi">Hire</button>
+            <h4>Luigi +1 coin</h4>
+            <p>Upgrade Cost:</p>
+            <p class="luigiDisplayCost">10</p>
+          </div>
+          <div class="left-rows">
+            <h4 class="multi-toad">0</h4>
+            <button class="toad">Hire</button>
+            <h4>Toad +1 p/s</h4>
+            <p>Upgrade Cost:</p>
+            <p class="toadDisplayCost">20</p>
+          </div>
+        </div>
+        <!-- Upgrades right
+        <div class="div-right">
+          <div class="right-rows">
+            <h4>0</h4>
+            <button class="princess">Hire</button>
+            <h4>Princess 1000 coins</h4>
+          </div>
+          <div class="right-rows">
+            <h4>0</h4>
+            <button class="Koopa">Hire</button>
+            <h4>Koopa 10000 coins</h4>
+          </div>
+        </div> -->
+        <!-- Reset coins mid -->
+        <div class="div-below">
+          <button class="reset">Reset</button>
+          <h4>Start again!</h4>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
